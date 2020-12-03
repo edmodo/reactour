@@ -382,6 +382,8 @@ class Tour extends Component {
       CustomHelper,
       disableFocusLock,
       highlightedBorder,
+      showArrow,
+      arrowSize,
     } = this.props
 
     const {
@@ -459,6 +461,8 @@ class Tour extends Component {
               })}
               accentColor={accentColor}
               defaultStyles={!CustomHelper}
+              showArrow={showArrow}
+              arrowSize={arrowSize}
               role="dialog"
             >
               {CustomHelper ? (

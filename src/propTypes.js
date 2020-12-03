@@ -78,4 +78,6 @@ export const defaultProps = {
   rounded: 0,
   accentColor: '#007aff',
   closeWithMask: true,
+  showArrow: PropTypes.bool,
+  arrowSize: PropTypes.number,
 }

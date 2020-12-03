@@ -59,6 +59,8 @@ function App() {
           className="helper"
           rounded={5}
           accentColor={accentColor}
+          showArrow
+          arrowSize={12}
           CustomHelper={customComps ? MyCustomHelper : null}
         />
       </Suspense>
