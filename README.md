@@ -161,6 +161,18 @@ Type: `bool`
 
 Required: `true`
 
+#### showArrow
+
+> Show/Hide arrow
+Type: `bool`
+
+Default: `false`
+
+#### arrowSize
+
+> arrow size(in px)
+Type: `number`
+
 #### lastStepNextButton
 
 > Change Next button in last step into a custom button to close the Tour
