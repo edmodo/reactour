@@ -206,7 +206,9 @@ class Tour extends Component {
     )
     if (!hx.inView({ ...attrs, w, h, threshold: inViewThreshold })) {
       const parentScroll = Scrollparent(node)
-      const offset = scrollOffset
+      const offset = step.scrollOffset
+        ? step.scrollOffset
+        : scrollOffset
         ? scrollOffset
         : attrs.height > h
         ? -25

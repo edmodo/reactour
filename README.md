@@ -347,6 +347,7 @@ steps: PropTypes.arrayOf(PropTypes.shape({
   'action': PropTypes.func,
   'style': PropTypes.object,
   'stepInteraction': PropTypes.bool,
+  'scrollOffset': PropTypes.number,
   'navDotAriaLabel': PropTypes.string,
   'observe': PropTypes.string,
   'highlightedSelectors': PropTypes.array,
