@@ -1266,7 +1266,7 @@ var Tour = /*#__PURE__*/function (_Component) {
         threshold: inViewThreshold
       }))) {
         var parentScroll = Scrollparent(node);
-        var offset = scrollOffset ? scrollOffset : attrs.height > h ? -25 : -(h / 2) + attrs.height / 2;
+        var offset = step.scrollOffset ? step.scrollOffset : scrollOffset ? scrollOffset : attrs.height > h ? -25 : -(h / 2) + attrs.height / 2;
         scrollSmooth.to(node, {
           context: isBody(parentScroll) ? window : parentScroll,
           duration: scrollDuration,
