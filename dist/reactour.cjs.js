@@ -1074,6 +1074,7 @@ var propTypes = {
   disableFocusLock: PropTypes.bool,
   badgeContent: PropTypes.func,
   highlightedMaskClassName: PropTypes.string,
+  closeButtonClassName: PropTypes.string,
   children: PropTypes.oneOfType([PropTypes.node, PropTypes.element]),
   className: PropTypes.string,
   closeWithMask: PropTypes.bool,
@@ -1534,6 +1535,7 @@ var Tour = /*#__PURE__*/function (_Component) {
           className = _this$props8.className,
           steps = _this$props8.steps,
           maskClassName = _this$props8.maskClassName,
+          closeButtonClassName = _this$props8.closeButtonClassName,
           showButtons = _this$props8.showButtons,
           showCloseButton = _this$props8.showCloseButton,
           showNavigation = _this$props8.showNavigation,
@@ -1678,7 +1680,7 @@ var Tour = /*#__PURE__*/function (_Component) {
           label: lastStepNextButton && current === steps.length - 1 ? lastStepNextButton : nextButton ? nextButton : null
         })), showCloseButton ? /*#__PURE__*/React__default.createElement(StyledClose, {
           onClick: onRequestClose,
-          className: "reactour__close"
+          className: "reactour__close ".concat(closeButtonClassName)
         }) : null))));
       }
 
