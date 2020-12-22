@@ -147,6 +147,12 @@ Type: `number`
 
 Type: `string`
 
+#### closeButtonClassName
+
+> Custom class name to add to the close button
+
+Type: `string`
+
 #### inViewThreshold
 
 > Tolerance in pixels to add when calculating if an element is outside viewport to scroll into view

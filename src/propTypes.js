@@ -4,6 +4,7 @@ export const propTypes = {
   disableFocusLock: PropTypes.bool,
   badgeContent: PropTypes.func,
   highlightedMaskClassName: PropTypes.string,
+  closeButtonClassName: PropTypes.string,
   children: PropTypes.oneOfType([PropTypes.node, PropTypes.element]),
   className: PropTypes.string,
   closeWithMask: PropTypes.bool,

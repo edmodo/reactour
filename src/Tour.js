@@ -363,6 +363,7 @@ class Tour extends Component {
       className,
       steps,
       maskClassName,
+      closeButtonClassName,
       showButtons,
       showCloseButton,
       showNavigation,
@@ -571,7 +572,7 @@ class Tour extends Component {
                   {showCloseButton ? (
                     <Close
                       onClick={onRequestClose}
-                      className="reactour__close"
+                      className={`reactour__close ${closeButtonClassName}`}
                     />
                   ) : null}
                 </>
